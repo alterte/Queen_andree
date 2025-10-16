@@ -1,0 +1,73 @@
+*{
+  padding:0;
+  margin:0;
+}
+html{
+  font-size: 62.5%;
+  width: 100%;
+}
+body {
+  font-size:1.6rem;
+    background-color:#87CEEB;
+    
+}
+h1{
+  font-size:7rem;
+  text-align: center;
+}
+h4{
+  font-size: 2rem;
+}
+h6{
+  margin-top: 4rem;
+  text-align: center;
+}
+.bbh-sans-hegarty-regular {
+  font-family: "BBH Sans Hegarty", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.deg90{
+  position: fixed;
+  left: -38%;
+  top: 50%;
+  transform: rotate(90deg) translateY(-50%);
+  transform-origin: center;
+  z-index: 1000;
+}
+.text1{
+  text-align:right;
+}
+.images{
+  filter: blur(3px);
+  height: 20rem;
+  width: auto;
+  border-radius: 1.5rem;
+  transition: filter 0.5s ease;
+}
+.images:hover{
+  filter: blur(0);
+}
+.images2{
+  filter: blur(3px);
+  height: 30rem;
+  width: auto;
+  border-radius: 1.5rem;
+  transition: filter 0.5s ease;
+}
+.images2:hover{
+  filter: blur(0);
+}
+.images-container{
+  transform: translate(4rem) translateY(2rem);
+  margin-bottom: 1rem;
+}
+.images-container2{
+  transform: translate(6rem) translateY(2rem);
+  margin-bottom: 1rem;
+}
+.images-container3{
+  transform: translate(4rem) translateY(2rem);
+  text-align: center;
+  margin-bottom: 1rem;
+}
